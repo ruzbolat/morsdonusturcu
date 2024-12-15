@@ -1,4 +1,4 @@
-# morsdonusturcu
+# morstranslater
 Convert any sentence you want into Morse code using only English words and numbers
 MORSE_ALPHABET = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.', 'G': '--.',
@@ -21,7 +21,7 @@ def text_to_mors(text):
                 
 
 
-# Örnek Kullanım
+
 if __name__ == "__main__":
     entry_text = input("Enter the text to convert: ")
     mors_text =text_to_mors(entry_text)
